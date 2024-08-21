@@ -25,3 +25,8 @@ This project aims to create a GUI application with Qt Creator which allows users
    - Therefore, this has to be removed by first finding all the contours in the image. Afterwards, a bounding rectangle was made around each contour. Then, it will compute the area of each bounding rectangle and it will look for the area that is greater than or smaller than the specified area.
    - The rectangle will be filled with black color to seemingly remove those contours which are greater than the specified area.
    - Afterwards, the contours after removing the areas are found, then filled with a color to mark it, and are drawn into a copy of the original image. The final output of the image will show where the kidney stones are, and will be marked with the color green.
+
+The following image shows the output of the file, showcasing each image processing steps
+
+
+<img width="948" alt="Kidney Stone Detection - Application Output" src="https://github.com/user-attachments/assets/17f7cf1b-d0b8-4ae9-9cca-a659934c74bc">
